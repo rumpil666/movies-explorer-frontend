@@ -1,0 +1,122 @@
+.profile-user {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-back-main);
+    max-width: 1280px;
+    width: 100%;
+    margin: 74px auto 70px;
+}
+
+.profile-user__title {
+    margin-top: 0;
+    margin-bottom: 123px;
+    align-self: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.profile-user__form {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-user__label {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 396px;
+    border-bottom: 1px solid var(--color-line-2);
+    margin-bottom: 17px;
+}
+
+.profile-user__label:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+.profile-user__input {
+    all: unset;
+    max-width: 255px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 16px;
+    text-align: end;
+    cursor: text;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.profile-user__span {
+    max-width: 141px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.profile-user__buttons-container {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 205px;
+}
+
+.profile-user__button-edit {
+    border: none;
+    background-color: var(--color-back-main);
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.profile-user__button-exit {
+    cursor: pointer;
+    border: none;
+    background-color: var(--color-back-main);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--color-font-error);
+}
+
+@media screen and (max-width: 769px) {
+    .profile-user {
+        margin: 236px auto 269px;
+    }
+
+    .profile-user__title {
+        margin-bottom: 96px;
+    }
+
+    .profile-user__label {
+        width: 410px;
+    }
+
+    .profile-user__buttons-container {
+        margin-top: 194px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .profile-user {
+        margin: 70px auto 40px;
+    }
+
+    .profile-user__title {
+        margin-bottom: 80px;
+    }
+
+    .profile-user__label {
+        width: 260px;
+    }
+
+    .profile-user__buttons-container {
+        margin-top: 363px;
+    }
+} 
