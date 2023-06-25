@@ -9,7 +9,7 @@ const Header = ({ isAccordionOpen, onClickAccordion }) => {
 
     return (
         <header
-            className={`header header__theme_${
+            className={`header header__theme--${
                 currentLocation.pathname === '/' ? 'landing' : 'main'
             }`}
         >

@@ -53,14 +53,15 @@
 
 .navigation__link_type_account::after {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 2px;
+    right: 2px;
     content: '';
     border-radius: 50px;
     background: no-repeat url('../../images/profile-icon.svg') center
       var(--color-back-icon);
     height: 100%;
-    width: 30px;
+    width: 26px;
+    height: 26px;
 }
 
 .navigation__link_signin {
@@ -93,7 +94,7 @@
         gap: 30px;
     }
 
-    .navigation__state_open {
+    .navigation__state--open {
         position: fixed;
         top: 0;
         bottom: 0;

@@ -147,7 +147,7 @@
     }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 411px) {
     .login__header {
         max-width: 260px;
         margin: 56px auto 0;

@@ -8,7 +8,7 @@ const Navigation = ({ isAccordionOpen, onClickAccordion }) => {
     <>
       {navigationLocation.pathname !== "/" ? (
         <nav
-          className={`navigation navigation__state_${
+          className={`navigation navigation__state--${
             isAccordionOpen ? "open" : "close"
           }`}
         >

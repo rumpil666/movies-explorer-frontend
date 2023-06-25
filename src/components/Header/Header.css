@@ -5,11 +5,11 @@
     max-width: 1280px;
 }
 
-.header__theme_landing {
+.header__theme--landing {
     background-color: var(--color-back-landing);
 }
 
-.header__theme_main {
+.header__theme--main {
     background-color: var(--color-back-main);
 }
 

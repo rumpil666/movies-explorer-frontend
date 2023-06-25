@@ -98,9 +98,15 @@
     object-position: center;
 }
 
+
+
 @media screen and (max-width: 769px) {
     .about-me {
         padding: 90px 50px 40px;
+    }
+
+    .about-me__container {
+        gap: 49px;
     }
 
     .about-me__subtitle {
@@ -130,7 +136,7 @@
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 550px) {
     .about-me {
         padding: 70px 14px 0;
     }
@@ -144,6 +150,7 @@
     .about-me__container {
         flex-direction: column-reverse;
         padding: 60px 0 0;
+        gap: 0;
     }
 
     .about-me__avatar {
